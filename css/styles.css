@@ -19,3 +19,12 @@
 .img-circle {
 	size: 0.5em;
 }
+
+section .article {
+	background-color: #fff;
+}
+
+section .article p {
+	/*text-indent: 10px;*/
+
+}
