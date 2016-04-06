@@ -1,0 +1,21 @@
+.col-sm-* {
+	padding: 10px;
+}
+
+.circle {
+/*	border-radius: 30px;*/
+	background-color: rgba(209, 255, 192, 0.5);
+/*	margin: 1em;*/
+	background-size: 30px;
+}
+
+.circle :hover {
+	scale: 1.1em;
+	/*background-color: rgba(209, 255, 192, 0.8);*/
+	background-color: red;
+
+}
+
+.img-circle {
+	size: 0.5em;
+}
