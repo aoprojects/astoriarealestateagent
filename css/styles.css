@@ -1,3 +1,16 @@
+
+
+
+
+#article {
+	background-color: #fff;
+	font-family: 'Patrick Hand', cursive;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 .col-sm-* {
 	padding: 10px;
 }
@@ -7,24 +20,56 @@
 	background-color: rgba(209, 255, 192, 0.5);
 /*	margin: 1em;*/
 	background-size: 30px;
+	border-radius: 90px;
+	padding: 3em;
 }
 
 .circle :hover {
-	scale: 1.1em;
-	/*background-color: rgba(209, 255, 192, 0.8);*/
-	background-color: red;
+	transform: scale(1.1);
+	transition: 0.1s;
 
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 4em;
+}
+
+
+h3 {
+	font-size: 2em;
+
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+
+.indent_left {
+	padding-left: 4em;
 }
 
 .img-circle {
 	size: 0.5em;
 }
 
-section .article {
-	background-color: #fff;
+.italic {
+	text-decoration: italic;
 }
 
-section .article p {
-	/*text-indent: 10px;*/
-
+.larger {
+	font-size: 3em;
 }
+
+p {
+	font-size: 1.5em;
+	padding: 6px;
+	text-indent: 2em;
+}
+
+#summary {
+	font-weight: bold;
+}
+
+
